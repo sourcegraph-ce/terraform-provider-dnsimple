@@ -2,7 +2,7 @@ package dnsimple
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/dnsimple/dnsimple-go/dnsimple"
 	"github.com/hashicorp/terraform-plugin-sdk/httpclient"
